@@ -1,0 +1,20 @@
+/* .button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+} */
+.card-inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+p.title{
+    color:#8C8C8C
+
+}
+
+p.value{
+    font-size: xx-large;
+}
+
