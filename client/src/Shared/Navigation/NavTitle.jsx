@@ -1,9 +1,9 @@
 import React from 'react';
-import './MainHeader.css';
+import './NavTitle.css';
 import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import logo from '../../Assets/logo.png';
-function MainHeader() {
+function NavTitle() {
   return (
     <div className="main-header">
       <div className="title">
@@ -16,4 +16,4 @@ function MainHeader() {
   );
 }
 
-export default MainHeader;
+export default NavTitle;

@@ -1,0 +1,16 @@
+.toggle-btn{
+    background-color: transparent;
+    border:transparent;
+    cursor: pointer;
+}
+.toggle-btn:hover{
+    color: #1990FF;
+
+}
+.toggle-content{
+background-color: #F8F9FA;
+    position:absolute;
+    top:6.8rem;
+    right:7.15rem;
+    z-index:100;
+}

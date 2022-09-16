@@ -10,7 +10,7 @@
         align-items: center;
 }
 .nav-links-container{
-    width: 55%;
+    width: 48%;
     display: flex;
     justify-content: center;
 }
@@ -30,3 +30,4 @@
 .nav-links li:hover{
     color: #1990FF;
 }
+

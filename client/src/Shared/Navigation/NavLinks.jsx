@@ -1,7 +1,8 @@
 import React from 'react';
-import { Button, Modal } from 'antd';
-import { PlusOutlined } from '@ant-design/icons';
+import { DownOutlined } from '@ant-design/icons';
 import './NavLinks.css';
+import ToggleButton from '../UIElements/ToggleButton';
+import NewRecord from '../../Dashboard/components/NewRecord';
 function NavLinks(props) {
   return (
     <div className="navbar">
@@ -11,14 +12,9 @@ function NavLinks(props) {
           <li className="nav-link">Transactions</li>
           <li className="nav-link">Reports</li>
         </ul>
-        <Button
-          type="primary"
-          icon={<PlusOutlined />}
-          shape="round"
-          onClick={props.onOpenModal}
-        >
-          New Record
-        </Button>
+        <ToggleButton className="toggle-btn" title="Add New Record">
+          <NewRecord />
+        </ToggleButton>
       </div>
     </div>
   );
